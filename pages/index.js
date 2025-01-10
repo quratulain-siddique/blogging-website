@@ -5,10 +5,12 @@ import FeaturedPosts from "@/components/featuredPosts";
 
 function HomePage()
 {
+    
     return (
         <Fragment>
+            <title>{`QURAT' Blog`}</title>
             <Hero/>
-            <FeaturedPosts/>
+            <FeaturedPosts />
         </Fragment>
     );
 }

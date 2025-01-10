@@ -6,11 +6,11 @@ function MainNavigation(){
             <Link href="/">
                 <Logo/>
             </Link>
-            
             <nav>
                 <ul className="flex justify-evenly  ">
                     <li className="p-3"><Link href="/posts">Posts</Link></li>
-                    <li className="p-3"><Link href="/contact">Contacts</Link></li>
+                    <li className="p-3"><Link href="/contact">Contact</Link></li>
+                    
                 </ul>
             </nav>
         </header>

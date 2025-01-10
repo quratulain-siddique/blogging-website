@@ -1,10 +1,16 @@
-import { Fragment } from "react";
+import PostGrid from "./posts/posts-grid";
+
 
 function FeaturedPosts(){
+   
     return(
-        <Fragment>
-            featured posts here
-        </Fragment>
+        <section className="bg-gray-100" >
+           
+            <PostGrid  clasifyType="Featured" />
+            
+        </section>
+       
     );
+    
 }
-export default FeaturedPosts
+export default FeaturedPosts;
